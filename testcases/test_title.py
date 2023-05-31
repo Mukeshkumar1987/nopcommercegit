@@ -1,14 +1,17 @@
+import time
+
 from selenium import webdriver
 
 
-class Test_Page_Title():
+class Test_Page_title():
 
 
-    def test_pageTitle(self, setup):
+    def test_title(self, setup):
         self.driver = setup
-        print(self.driver.title)
+
         if self.driver.title == "Your store. Login":
+            print("condtion is True")
             assert True
         else:
             assert False
-        #self.driver.close()
+        self.driver.close()

@@ -43,3 +43,18 @@ def setup(browser):
     driver.implicitly_wait(10)
     driver.maximize_window()
     return driver
+
+
+
+
+
+
+
+@pytest.fixture(params=[
+    ("admin@yourstore.com","admin", "Pass"),
+    ("admin@yourstore.com1", "admin", "Fail"),
+    ("admin@yourstore.com", "admin1","Fail"),
+    ("admin@yourstore.com2", "admin1231", "Fail")
+])
+def getDataforlogin(request):
+    return request.param
