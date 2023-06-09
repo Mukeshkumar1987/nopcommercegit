@@ -1,15 +1,17 @@
 #
+import time
+
 from pageObject.Login import LoginPage
 from utility.Readproperties import Readconfig
 
 
-class Test_params:
+class Test_Login_Params:
 
     url = Readconfig.geturl()
     email = Readconfig.getEmail()
     password = Readconfig.getpassword()
 
-    def test_param004(self,setup,getDataforlogin):
+    def test_login_params004(self,setup,getDataforlogin):
         self.driver = setup
         self.driver.get(self.url)
         self.lp = LoginPage(self.driver)
@@ -18,15 +20,17 @@ class Test_params:
         self.lp.Enter_Password(self.password)
         self.lp.Enter_Password(getDataforlogin[1])
         self.lp.Click_Login()
-        if self.driver.title == "Dashboard / nopCommerce administration":
-            if getDataforlogin[2]== "Pass":
+        if self.lp.login_Status() == True:
+            if getDataforlogin[2] == "Pass":
+                self.driver.save_screenshot("C:\\Users\\mukes\\PycharmProjects\\non commerce\\Screenshot\\")
+                self.lp.Click_Menu_Button()
+                time.sleep(5)
                 self.lp.Click_Logout()
                 assert True
             else:
                 assert False
         else:
-            if getDataforlogin[2]=="Fail":
-                self.lp.Click_Logout()
+            if getDataforlogin[2] == "Fail":
                 assert True
             else:
                 assert False

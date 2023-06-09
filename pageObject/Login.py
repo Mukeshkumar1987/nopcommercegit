@@ -4,6 +4,7 @@ from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as Ec, expected_conditions
+from selenium.common import NoSuchElementException as Ec
 
 
 class LoginPage:
@@ -36,15 +37,25 @@ class LoginPage:
         # time.sleep(2)
         # self.wait.until(Ec.presence_of_element_located((By.XPATH, "//i[@class='fas fa-cogs']")))
         self.driver.find_element(*LoginPage.CLick_Logout_XPATH).click()
-    def Title(self):
-        time.sleep(2)
+
+
+    def login_Status(self):
+        self.driver.implicitly_wait(10)
         try:
-            # wait.until(expected_conditions.visibility_of_element_located(self.CLick_Menu_Button_XPATH))
-            title = self.driver.title
-            return title
-        except:
-            title = self.driver.title
-            return title
+            self.driver.find_element(*LoginPage.CLick_Menu_Button_XPATH)
+            return True
+        except Ec:
+            return False
+
+    # def Title(self):
+    #     time.sleep(2)
+    #     try:
+    #         # wait.until(expected_conditions.visibility_of_element_located(self.CLick_Menu_Button_XPATH))
+    #         title = self.driver.title
+    #         return title
+    #     except:
+    #         title = self.driver.title
+    #         return title
 
 
 

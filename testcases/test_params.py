@@ -55,8 +55,8 @@ class Test_Login_Params:
                 assert True
             else:
                 assert False
-                self.driver.close()
-                self.log.info("test param is completed")
+        self.driver.close()
+        self.log.info("test param is completed")
 
 
 

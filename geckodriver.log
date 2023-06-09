@@ -306,3 +306,330 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.error: (new AbortError("IndexedDB: main/tippytop getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
 console.error: "Problem getting stored prefs for TopSites"
 JavaScript error: , line 0: uncaught exception: null
+1685552843237	geckodriver	INFO	Listening on 127.0.0.1:60050
+1685552846325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60051" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofileATMtPv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685552846853	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685552846860	Marionette	INFO	Listening on port 60083
+Read port: 60083
+WebDriver BiDi listening on ws://127.0.0.1:60051
+1685552847055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60051/devtools/browser/1ab1eb81-97a8-4fcd-b096-4bcf51eb9913
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+[Child 24516, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24516, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24516, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24516, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24516, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24516, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24516, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24516, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1685552870106	Marionette	INFO	Stopped listening on port 60083
+Dynamically enable window occlusion 1
+1685552870627	geckodriver	INFO	Listening on 127.0.0.1:60122
+1685552873659	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60123" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofilelWDzW0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685552874000	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685552874007	Marionette	INFO	Listening on port 60133
+Read port: 60133
+WebDriver BiDi listening on ws://127.0.0.1:60123
+1685552874193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60123/devtools/browser/2a4f8765-3b1f-4f6a-a016-8328a3284789
+[Child 29272, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29272, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29272, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29272, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29272, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29272, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29272, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29272, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1685552877750	Marionette	INFO	Stopped listening on port 60133
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 2108, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1685552877866	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:207
+deleteSession()@WebDriverBiDi.sys.mjs:142
+stop()@WebDriverBiDi.sys.mjs:230
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:576
+1685552878240	geckodriver	INFO	Listening on 127.0.0.1:60149
+1685552881274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60150" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofile8Sgc2U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685552881615	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685552881621	Marionette	INFO	Listening on port 60157
+Read port: 60157
+WebDriver BiDi listening on ws://127.0.0.1:60150
+1685552881833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60150/devtools/browser/d5e82f2c-0d2c-42d4-8856-059103c6b4d8
+[Child 29796, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29796, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29796, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29796, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29796, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29796, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29796, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 29796, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1685552885483	Marionette	INFO	Stopped listening on port 60157
+Dynamically enable window occlusion 1
+1685552885784	geckodriver	INFO	Listening on 127.0.0.1:60174
+1685552888825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60175" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofile7a5LoB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685552889344	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685552889351	Marionette	INFO	Listening on port 60184
+Read port: 60184
+WebDriver BiDi listening on ws://127.0.0.1:60175
+1685552889525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60175/devtools/browser/ba4087f5-254e-4465-9b29-b9e0fbe75b01
+[Child 25388, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25388, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25388, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25388, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25388, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25388, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25388, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 25388, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1685552892676	Marionette	INFO	Stopped listening on port 60184
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1685552892721	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:207
+deleteSession()@WebDriverBiDi.sys.mjs:142
+stop()@WebDriverBiDi.sys.mjs:230
+1685699241317	geckodriver	INFO	Listening on 127.0.0.1:61150
+1685699244618	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61151" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofilekarsRq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685699251952	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1685699252094	Marionette	INFO	Listening on port 61240
+Read port: 
+1685699252205	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 61240
+WebDriver BiDi listening on ws://127.0.0.1:61151
+1685699253281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new QuotaExceededError("IndexedDB: main/anti-tracking-url-decoration getLastModified() IndexedDB:   The current transaction exceeded its quota limitations.", "resource://services-settings/IDBHelpers.jsm", 18))
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+console.error: (new NotReadableError("Could not write chunk (size = 105610) to file C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofilekarsRq\\startupCache\\webext.sc.lz4.tmp. The file may be corrupt.", (void 0)))
+console.error: (new QuotaExceededError("IndexedDB: main/hijack-blocklists getLastModified() IndexedDB:   The current transaction exceeded its quota limitations.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: (new QuotaExceededError("Inconsole.error: (new TypeError("connection not specified in clone options.", "resource://gre/modules/Sqlite.sys.mjs", 1416))
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1067: Error: Error(s) encountered during statement execution: unable to open database file
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 1211) to file C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofilerSigDU\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+JavaScript error: resource://gre/modules/NewTabUtils.sys.mjs, line 1393: TypeError: conn is undefined
+console.error: (new TypeError("db is undefined", "resource://gre/modules/Bookmarks.sys.mjs", 2483))
+[GFX1-]: shader-cache: Failed to cconsole.error: (new NotReadableError("Could not write chunk (size = 38395) to file C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofileBaTmjT\\extensions.json.tmp. The file may be corrupt.", (void 0)))
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: blocklists/addons-bloomfilters getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: services.settings: 
+  Message: StorageError: Storage error: QuotaExceededError: IndexedDB: blocklists/gfx importChanges() IndexedDB:  importChanges() in blocklists/gfx The current transaction exceeded its quota limitations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.error: services.settings: 
+  Message: StorageError: Storage error: InvalidStateError: IndexedDB: main/normandy-recipes-capabilities importChanges() IndexedDB: collections, timestamps, records importChanges() in main/normandy-recipes-capabilities A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.error: services.settings: 
+  Message: StorageError: Storage error: QuotaExceededError: IndexedDB: main/search-config importChanges() IndexedDB:  importChanges() in main/search-config The current transaction exceeded its quota limitations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.error: (new AbortError("IndexedDB: main/devtools-compatibility-browsers list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: services.settings: 
+  Message: StorageError: Storage error: InvalidStateError: IndexedDB: main/devtools-compatibility-browsers importChanges() IndexedDB: collections, timestamps, records importChanges() in main/devtools-compatibility-browsers A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.error: (new AbortError("IndexedDB: main/nimbus-mobile-experiments getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: (new AbortError("IndexedDB: main/public-suffix-list getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+JavaScript error: , line 0: uncaught exception: Object
+-compatibility-browsers A request was aborted, for example through a call to IDBTransaction.abort.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.error: (new AbortError("IndexedDB: main/nimbus-mobile-experiments getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 9395) to file C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofilerSigDU\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 9392) to file C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofilerSigDU\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+JavaScript error: , line 0: uncaught exception: Object
+cc:787
+console.error: (new AbortError("IndexedDB: main/public-suffix-list getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: (new NotReadableError("Could not write chunk (size = 38395) to file C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofileMNylqG\\extensions.json.tmp. The file may be corrupt.", (void 0)))
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: blocklists/addons-bloomfilters getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: (new RemoteSettingsWorkerError("QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.error: services.settings: 
+  Message: StorageError: Storage error: AbortError: IndexedDB: blocklists/gfx importChanges() IndexedDB:  importChanges() in blocklists/gfx A request was aborted, for example through a call to IDBTransaction.abort.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: main/normandy-recipes-capabilities getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: (new AbortError("IndexedDB: main/nimbus-desktop-experiments getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 8712) to file C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofileMNylqG\\sessionstore-backupconsole.error: (new TypeError("db is undefined", "resource://gre/moconsole.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 8712) to file C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofileMNylqG\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+JavaScript error: , line 0: uncaught exception: Object
+("Could not write chunk (size = 2490) to file C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofilekarsRq\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+JavaScript error: resource://gre/modules/NewTabUtils.sys.mjs, line 1393: TypeError: conn is undefined
+console.error: services.settings: 
+  Message: QuotaExceededError: IndexedDB: blocklists/addons-bloomfilters getLastModified() IndexedDB:   The current transaction exceeded its quota limitations.
+console.error: services.settings: 
+  Message: QuotaExceededError: IndexedDB: blocklists/gfx getLastModified() IndexedDB:   The current transaction exceeded its quota limitations.
+console.error: (new QuotaExceededError("IndexedDB: main/normandy-recipes getLastModified() IndexedDB:   The current transaction exceeded its quota limitations.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 8967) to file C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofilekarsRq\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+JavaScript error: , line 0: uncaught exception: Object
+1686298275633	geckodriver	INFO	Listening on 127.0.0.1:63229
+1686298278658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63230" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofiledROvJA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686298279138	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686298279145	Marionette	INFO	Listening on port 63238
+Read port: 63238
+WebDriver BiDi listening on ws://127.0.0.1:63230
+1686298279324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63230/devtools/browser/a61c8434-fbc3-4c18-bdca-a226575a3665
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+1686298291858	Marionette	INFO	Stopped listening on port 63238
+[Child 38520, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 38520, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 38520, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 38520, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 38520, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 38520, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 38520, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 38520, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 26132, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+1686298293298	geckodriver	INFO	Listening on 127.0.0.1:63277
+1686298296328	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63278" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofiletLajuA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686298296638	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686298296643	Marionette	INFO	Listening on port 63285
+Read port: 63285
+WebDriver BiDi listening on ws://127.0.0.1:63278
+1686298296789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63278/devtools/browser/85539d36-4f0d-4f79-b586-0dbac1cd3806
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+1686298302658	Marionette	INFO	Stopped listening on port 63285
+[Child 14016, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14016, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14016, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14016, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14016, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14016, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14016, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 14016, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1686298304261	geckodriver	INFO	Listening on 127.0.0.1:63319
+1686298307307	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63320" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofiley33dqy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686298307684	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686298307691	Marionette	INFO	Listening on port 63327
+Read port: 63327
+WebDriver BiDi listening on ws://127.0.0.1:63320
+1686298307844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63320/devtools/browser/d591e69a-faea-4dfd-8bbc-f3eb0416cc3e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+1686298314779	Marionette	INFO	Stopped listening on port 63327
+[Child 21564, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 21564, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 21564, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 21564, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 21564, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 21564, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 21564, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 21564, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1686298315901	geckodriver	INFO	Listening on 127.0.0.1:63359
+1686298318941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63360" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofileFtn3s1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686298319259	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686298319264	Marionette	INFO	Listening on port 63368
+Read port: 63368
+WebDriver BiDi listening on ws://127.0.0.1:63360
+1686298319406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63360/devtools/browser/53051ffb-7b38-41f0-b902-e1d2004f1fec
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+1686298325967	Marionette	INFO	Stopped listening on port 63368
+[Child 24052, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24052, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24052, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24052, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24052, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24052, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24052, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 24052, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1686298359788	geckodriver	INFO	Listening on 127.0.0.1:63413
+1686298362839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63414" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mukes\\AppData\\Local\\Temp\\rust_mozprofileLAMKav"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686298363219	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686298363227	Marionette	INFO	Listening on port 63421
+Read port: 63421
+WebDriver BiDi listening on ws://127.0.0.1:63414
+1686298363451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63414/devtools/browser/b6ac867e-ab2d-48c7-be1c-c30ce07328ec
+[Child 16532, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+1686298371879	Marionette	INFO	Stopped listening on port 63421
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=false
+Shutting down due to socket process crash.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down

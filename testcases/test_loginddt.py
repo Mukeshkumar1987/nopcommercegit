@@ -24,41 +24,36 @@ class Test_Login_DDT:
         self.driver.get(self.Url)
         self.lp = LoginPage(self.driver)
         self.rows = XLutils.getrowCount(self.path, 'Sheet1')
-        login_status = []
-        for r in range (2 , self.rows + 1):
+        update_status = []
+        for r in range (2,self.rows+1):
             self.Email = XLutils.readData(self.path, 'Sheet1',r,2)
             self.password = XLutils.readData(self.path,'Sheet1',r,3)
             self.lp.Enter_Email(self.Email)
             self.lp.Enter_Password(self.password)
             self.lp.Click_Login()
-            if self.lp.Title() == "Dashboard / nopCommerce administration":
-                time.sleep(2)
+            if self.lp.login_Status()==True:
+                self.driver.save_screenshot("C:\\Users\\mukes\\PycharmProjects\\non commerce\\Screenshot\\test_loginddt.py-pass.png")
+                time.sleep(3)
+                self.lp.Click_Menu_Button()
+                time.sleep(4)
                 self.lp.Click_Logout()
-
-                login_status.append("Pass")
-                XLutils.writeData(self.path,'Sheet1', r, 4, "Pass")
+                update_status.append("Pass")
+                XLutils.writeData(self.path,'Sheet1',r,4,"pass")
             else:
-                login_status.append("Fail")
-                # time.sleep(2)
-                XLutils.writeData(self.path,'Sheet1', r, 4, "Fail")
-
-        print(login_status)
-        if "Fail" not in login_status:
-            # time.sleep(5)
-            print("login status is passsed")
-            # self.log.info("test_login_ddt_006 is Passed")
+                update_status.append("Fail")
+                XLutils.writeData(self.path,'Sheet1',r, 4,"Fail")
+                self.driver.save_screenshot("C:\\Users\\mukes\\PycharmProjects\\non commerce\\Screenshot\\test_loginddt.py-fail.png")
+        print(update_status)
+        if "Fail" in update_status:
             assert True
         else:
-        # #     # self.log.info("test_login_ddt_006 is Failed")
-        # #     print("login status is failed")
             assert False
         self.driver.close()
-        # self.log.info("test_login_ddt_006 is Completed")
 
-    #
-        # if self.driver.title == "Dashboard / nopCommerce administration":
-        #     time.sleep(2)
-        #     self.lp.Click_Logout()
-        #     assert True
-        # else:
-        #     assert False
+
+
+
+
+
+
+
